@@ -9,6 +9,7 @@
         body {
             max-width: 700px;
             margin: 40px auto;
+            padding: 0 16px;
             font-size: 14px;
             line-height: 1.5;
         }
@@ -27,6 +28,15 @@
             color: blue;
             text-decoration: underline;
         }
+
+        /* mobile tweaks */
+        @media (max-width: 600px) {
+            body {
+                margin: 20px auto;
+                font-size: 15px;
+                padding: 0 14px;
+            }
+        }
     </style>
 </head>
 
@@ -37,7 +47,7 @@
     </p>
 
     <p>
-        <a href="./blog.html">blog</a> |
+        <a href="/blog.html">blog</a> |
         <a href="https://github.com/lucasarcoverdem">github</a>
     </p>
 
