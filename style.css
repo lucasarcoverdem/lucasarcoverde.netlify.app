@@ -26,25 +26,8 @@ hr {
     font-size: 12px;
 }
 
-pre,
-code {
-    font-family: monospace;
-}
-
-pre {
-    overflow-x: auto;
-    white-space: pre-wrap;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-blockquote {
-    margin: 6px 0;
-    padding-left: 12px;
-    border-left: 2px solid #ccc;
+.post {
+    margin-bottom: 25px;
 }
 
 @media (max-width: 600px) {
